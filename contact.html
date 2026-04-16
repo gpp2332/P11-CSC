@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Preeminent Library</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Preeminent Library</h1>
+      <p>A quiet place to find books that are actually worth reading</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+      <h2>Contact Us</h2>
+
+      <div class="form-box">
+        <form id="contactForm">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Full Name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="YourEmail@email.com" />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Why you're here today"></textarea>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="result"></p>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Preeminent Library | info@preeminentlibrary.com | (123)-456-7890</p>
+    </footer>
+
+    <script>
+      const form = document.getElementById("contactForm");
+      const result = document.getElementById("result");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); // stop page refresh
+
+        const name = document.getElementById("name").value;
+
+        result.textContent = "Thank you " + name + "! Your message was received.";
+      });
+    </script>
+
+  </body>
+</html>
