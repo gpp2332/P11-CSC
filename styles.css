@@ -1,4 +1,4 @@
-/* general reset */
+/* general formatting */
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* general section padding */
+/* general section padding formatting */
 section {
   padding: 25px;
 }
@@ -57,7 +57,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
-/* book cards */
+/* book boxes */
 .book-card {
   background-color: white;
   padding: 18px;
@@ -87,7 +87,7 @@ section h2 {
   color: #2b5d8a;
 }
 
-/* authors section */
+/* author section */
 .authors-section {
   background-color: #efe4d4;
 }
@@ -138,7 +138,7 @@ td {
   padding: 10px;
 }
 
-/* about page */
+/* about */
 .about-section {
   background-color: #efe4d4;
 }
@@ -220,7 +220,7 @@ button:hover {
   color: #5b3a29;
 }
 
-/* map section */
+/* map */
 .map-section {
   text-align: center;
 }
