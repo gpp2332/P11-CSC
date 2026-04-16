@@ -1,0 +1,150 @@
+/* general reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f1ea;
+  color: #222;
+}
+
+/* top header */
+header {
+  background-color: #5b3a29;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 6px;
+}
+
+header p {
+  font-size: 15px;
+}
+
+/* nav links */
+nav {
+  background-color: #d8c3a5;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #3b2f2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #5b3a29;
+}
+
+/* wraps the page content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h2 {
+  color: #5b3a29;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+h3 {
+  color: #7a4f3b;
+  margin-bottom: 8px;
+}
+
+/* white card boxes */
+.card {
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 22px;
+  margin-bottom: 22px;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+/* about page info blocks */
+.info-block {
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 18px;
+}
+
+/* contact form */
+.form-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5b3a29;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3d2518;
+}
+
+#result {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #5b3a29;
+}
+
+/* footer */
+footer {
+  background-color: #5b3a29;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 40px;
+}
