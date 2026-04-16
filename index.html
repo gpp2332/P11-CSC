@@ -18,41 +18,117 @@
       <a href="contact.html">Contact</a>
     </nav>
 
-    <main>
-      <h2>Welcome</h2>
+    <section id="books">
+      <h2>Books</h2>
 
-      <div class="card">
-        <h3>What We Offer</h3>
+      <div class="book-card">
+        <h2>Can't Hurt Me</h2>
+        <img src="canthurtme.jpg" alt="Cover of Can't Hurt Me by David Goggins" width="150" height="200" />
         <p>
-          Preeminent Library is a community reading space focused on nonfiction,
-          memoirs, and books that actually change how you think. Whether you're
-          looking for something motivational or something that expands your
-          worldview, we try to keep the shelves stocked with titles worth your time.
+          A memoir about discipline, mental toughness, and pushing past the
+          limits most people accept for themselves. His first book of a 2 part series.
+        </p>
+        <p><strong>Author: <a href="#david-goggins">David Goggins</a></strong></p>
+      </div>
+
+      <div class="book-card">
+        <h2>Never Finished</h2>
+        <img src="neverfinished.jpg" alt="Cover of Never Finished by David Goggins" width="150" height="200" />
+        <p>
+          A follow-up work to <i>Can't Hurt Me</i> centered on growth, never
+          finished goals, and the idea that personal development is never really
+          complete. One can always push further.
+        </p>
+        <p><strong>Author: <a href="#david-goggins">David Goggins</a></strong></p>
+      </div>
+
+      <div class="book-card">
+        <h2>Confessions of an Economic Hit Man</h2>
+        <img src="conf.jpg" alt="Cover of Confessions of an Economic Hit Man by John Perkins" width="150" height="200" />
+        <p>
+          A memoir depicting the story of John Perkins. Revealing a secret dark
+          side to the United States filled with deception and secrecy. The first
+          in his 2 part series.
+        </p>
+        <p><strong>Author: <a href="#john-perkins">John Perkins</a></strong></p>
+      </div>
+
+    </section>
+
+    <section id="authors" class="authors-section">
+      <h2>Authors</h2>
+
+      <div id="david-goggins" class="author">
+        <h3>David Goggins</h3>
+        <img src="dg.jpg" alt="Photo of David Goggins" width="140" height="140" />
+        <p>
+          David Goggins is a former Navy SEAL, endurance athlete, and
+          motivational speaker known for writing about resilience, discipline,
+          self-mastery, and pushing beyond human limits.
         </p>
       </div>
 
-      <div class="card">
-        <h3>Featured This Month</h3>
+      <div id="john-perkins" class="author">
+        <h3>John Perkins</h3>
+        <img src="johnperkins.jpg" alt="Photo of John Perkins" width="140" height="140" />
         <p>
-          This month we are highlighting <i>Can't Hurt Me</i> by David Goggins.
-          A memoir about pushing past the mental limits most people never
-          challenge. Available now at the front desk.
+          John Perkins is an author and speaker best known for writing about
+          international finance, power structures, and economic influence in
+          global politics. He has faced high levels of criticism after
+          publishing <i>Confessions of an Economic Hit Man</i>.
         </p>
       </div>
 
-      <div class="card">
-        <h3>Book Requests</h3>
-        <p>
-          Don't see what you're looking for? Head over to our
-          <a href="contact.html" style="color: #5b3a29;">contact page</a>
-          and send us a request. We do our best to get new titles in within a few weeks.
-        </p>
-      </div>
+    </section>
 
-    </main>
+    <section class="table-section">
+      <h2>Book Details Table</h2>
+
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Genre</th>
+          <th>Available</th>
+        </tr>
+        <tr>
+          <td>Can't Hurt Me</td>
+          <td>David Goggins</td>
+          <td>2018</td>
+          <td>Memoir</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Never Finished</td>
+          <td>David Goggins</td>
+          <td>2022</td>
+          <td>Self-Development</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Confessions of an Economic Hit Man</td>
+          <td>John Perkins</td>
+          <td>2004</td>
+          <td>Nonfiction</td>
+          <td>Yes</td>
+        </tr>
+      </table>
+
+    </section>
+
+    <section class="map-section">
+      <h2>Library Locations</h2>
+      <iframe
+        src="https://www.google.com/maps?q=public%20libraries%20in%20New%20Haven%20Connecticut&output=embed"
+        width="560"
+        height="315"
+        title="Library Map">
+      </iframe>
+    </section>
 
     <footer>
-      <p>&copy; 2026 Preeminent Library | info@preeminentlibrary.com | (123)-456-7890</p>
+      <p>&copy; 2026 Preeminent Library | Contact: info@preeminentlibrary.com | Phone: (123)-456-7890</p>
     </footer>
 
   </body>
